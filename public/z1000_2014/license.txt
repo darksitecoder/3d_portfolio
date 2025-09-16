@@ -1,0 +1,11 @@
+Model Information:
+* title:	Z1000 2014
+* source:	https://sketchfab.com/3d-models/z1000-2014-70cecfa5568347428c5ad72e9a156be9
+* author:	e-restrepo1114 (https://sketchfab.com/EmanuelRestrepoVelez)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Z1000 2014" (https://sketchfab.com/3d-models/z1000-2014-70cecfa5568347428c5ad72e9a156be9) by e-restrepo1114 (https://sketchfab.com/EmanuelRestrepoVelez) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
