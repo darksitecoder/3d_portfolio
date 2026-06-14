@@ -18,6 +18,7 @@ import {
   meta,
   starbucks,
   tesla,
+  networsys,
   shopify,
   carrent,
   jobit,
@@ -45,18 +46,21 @@ const services = [
     title: "Frontend Developer",
     icon: web,
   },
+
+   {
+    title: "AI Engineer",
+    icon: backend,
+  },
+  {
+    title: "Devops Engineer",
+    icon: creator,
+  },
   {
     title: "Project Manager",
     icon: mobile,
   },
-  {
-    title: "UI/UX Developer",
-    icon: backend,
-  },
-  {
-    title: "Digital Marketer",
-    icon: creator,
-  },
+ 
+  
 ];
 
 const technologies = [
@@ -116,6 +120,34 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Developer",
+    company_name: "Networsys Technologies LLP",
+    icon: networsys,
+    iconBg: "#E6DEDD",
+    date: "September 2023 - Present",
+    points: [
+      "Developed responsive, high-performance web applications using modern frontend technologies, enhancing website load speed by 30%",
+      "Built reusable frontend components, reducing development time by 20% and ensuring consistency across projects.",
+      "Translated complex UI/UX designs into scalable, pixel-perfect code with full cross-browser and mobile compatibility.",
+      "Managed multiple frontend projects with Jira, Microsoft Project, Asana, and Trello, ensuring 100% on-time delivery through clear timelines and task tracking.",
+      "Facilitated client communication, requirement gathering, and documentation, ensuring alignment with business goals and smooth project execution.",
+    ],
+  },
+  {
+    title: "Frontend Developer / Project Manager",
+    company_name: "Nettechnocrats It Services PVT. LTD.",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "November 2023 - September 2025",
+    points: [
+      "Developed responsive, high-performance web applications using modern frontend technologies, enhancing website load speed by 30%",
+      "Built reusable frontend components, reducing development time by 20% and ensuring consistency across projects.",
+      "Translated complex UI/UX designs into scalable, pixel-perfect code with full cross-browser and mobile compatibility.",
+      "Managed multiple frontend projects with Jira, Microsoft Project, Asana, and Trello, ensuring 100% on-time delivery through clear timelines and task tracking.",
+      "Facilitated client communication, requirement gathering, and documentation, ensuring alignment with business goals and smooth project execution.",
+    ],
+  },
+  {
     title: "FRONTEND WEB DEVELOPER",
     company_name: "Wezen Education PVT. LTD.",
     icon: starbucks,
@@ -128,20 +160,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Frontend Developer / Project Manager",
-    company_name: "Nettechnocrats It Services PVT. LTD.",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "November 2023 - Present",
-    points: [
-      "Developed responsive, high-performance web applications using modern frontend technologies, enhancing website load speed by 30%",
-      "Built reusable frontend components, reducing development time by 20% and ensuring consistency across projects.",
-      "Translated complex UI/UX designs into scalable, pixel-perfect code with full cross-browser and mobile compatibility.",
-      "Managed multiple frontend projects with Jira, Microsoft Project, Asana, and Trello, ensuring 100% on-time delivery through clear timelines and task tracking.",
-      "Facilitated client communication, requirement gathering, and documentation, ensuring alignment with business goals and smooth project execution.",
-    ],
-  },
+  
  
 ];
 
