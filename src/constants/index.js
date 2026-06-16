@@ -211,7 +211,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://lexclaws.com/",
+    // source_code_link: "https://lexclaws.com/",
+    live_link: "https://lexclaws.com",
   },
   {
     name: "ANARC",
@@ -233,6 +234,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/darksitecoder/anarc-watch",
+    live_link: "https://anarc-watch-kappa.vercel.app/",
   },
   {
     name: "Book Mandir",
@@ -254,7 +256,31 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/darksitecoder/bookmandir",
+    live_link: "https://bookmandir.vercel.app/",
   },
+   {
+    name: "ANARC",
+    description:
+      "Anark is a reimagined watch website offering a modern, elegant, and user-friendly shopping experience for premium timepieces, built for effortless watch exploration and purchase.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/darksitecoder/anarc-watch",
+  },
+
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

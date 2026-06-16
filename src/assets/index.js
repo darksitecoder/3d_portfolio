@@ -27,9 +27,10 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import networsys from "./company/networsys.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./projects/carrent.png";
+import jobit from "./projects/jobit.png";
+import tripguide from "./projects/tripguide.png";
+// import logisticsadmin from "./projects/"
 
 export {
   logo,
