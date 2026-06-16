@@ -22,6 +22,14 @@ import {
   shopify,
   carrent,
   jobit,
+  logisticsadmin,
+  tmorrowAdmin,
+  tmorroWebsite,
+  bmsaxiom,
+  puexpAdmin,
+  puexpWebsite,
+  verticalCharts,
+  vishalchaudharylawOffice,
   tripguide,
   threejs,
 } from "../assets";
@@ -192,27 +200,26 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Lex Claws",
+   {
+    name: "Logistics By Storm",
     description:
-      "Lexclaws is a trusted law firm delivering expert legal services, including litigation, advisory, compliance, and personalized solutions for individuals, businesses, and organizations with professionalism",
+      "Logistics By Storm is React and Typescript based Dashboard used to handle multi users and the complete shipment process using Rest API",
     tags: [
       {
-        name: "PhP",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "Wordpress",
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    // source_code_link: "https://lexclaws.com/",
-    live_link: "https://lexclaws.com",
+    image: logisticsadmin,
+    live_link: "https://logistics-by-storm.vercel.app/auth/login",
   },
   {
     name: "ANARC",
@@ -237,6 +244,69 @@ const projects = [
     live_link: "https://anarc-watch-kappa.vercel.app/",
   },
   {
+    name: "2morrow Real Estate Dashboard",
+    description:
+      "The Dashboard is made with pure React, Typescript, Tailwind. Specially used for multi  users managing the properties, Buying and selling flow ",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tmorrowAdmin,
+    live_link: "https://2morrow-admin.vercel.app/",
+  },
+   {
+    name: "2morrow Real Estate Website",
+    description:
+      "2morrow is an Switzerland based Real Estate Company doing business in multination. I have made this complete website using Wordpress and Custom Plugins",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tmorroWebsite,
+    live_link: "https://2morrow-re.ch/",
+  },
+   {
+    name: "BMS Axiom",
+    description:
+      "BMS Axiom is a complete wordpress based webiste use for Web Development and Cybersecurity Firm ",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ACF",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bmsaxiom,
+    live_link: "https://bmsaxiom.com/",
+  },
+  {
     name: "Book Mandir",
     description:
       "Bookmandir is an online e-commerce platform offering a wide collection of books across genres, providing readers with an easy, reliable, and convenient way to explore and purchase their favorite titles.",
@@ -259,26 +329,73 @@ const projects = [
     live_link: "https://bookmandir.vercel.app/",
   },
    {
-    name: "ANARC",
+    name: "Vishal Chaudhary Law Office",
     description:
-      "Anark is a reimagined watch website offering a modern, elegant, and user-friendly shopping experience for premium timepieces, built for effortless watch exploration and purchase.",
+      "Vishal Chaudhary's Law Office — trusted attorneys offering corporate, civil, family, criminal, real estate, tax and employment law services. Contact us for a consultation.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "framer",
+        name: "Sanity",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/darksitecoder/anarc-watch",
+    image: vishalchaudharylawOffice,
+    live_link: "https://www.vishalchaudharyslawoffice.com/",
   },
+  {
+    name: "Lex Claws",
+    description:
+      "Lexclaws is a trusted law firm delivering expert legal services, including litigation, advisory, compliance, and personalized solutions for individuals, businesses, and organizations with professionalism",
+    tags: [
+      {
+        name: "PhP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Wordpress",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    // source_code_link: "https://lexclaws.com/",
+    live_link: "https://lexclaws.com",
+  },
+
+  
+   
+   {
+    name: "Vertical Charts",
+    description:
+      "Verticle Charts is new generation website show micro drama's ratting. I have buil the complete webiste using Wordpress and built custom plugin to use with ACF",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ACF",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: verticalCharts,
+    live_link: "https://verticalcharts.com/",
+  },
+    
 
   
 ];

@@ -30,7 +30,14 @@ import networsys from "./company/networsys.png"
 import carrent from "./projects/carrent.png";
 import jobit from "./projects/jobit.png";
 import tripguide from "./projects/tripguide.png";
-// import logisticsadmin from "./projects/"
+import logisticsadmin from "./projects/logistics-by-storm.png"
+import tmorrowAdmin from "./projects/2morrow-admin.png"
+import tmorroWebsite from "./projects/2morrow-realestate.png"
+import bmsaxiom from "./projects/bmsaxiom.png"
+import puexpAdmin from "./projects/puexp-dashboard.png"
+import puexpWebsite from "./projects/puexp-website.png"
+import verticalCharts from "./projects/verticalcharts.png"
+import vishalchaudharylawOffice from "./projects/vishalchaudharylawoffice.png"
 
 export {
   logo,
@@ -62,4 +69,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  logisticsadmin,
+  tmorrowAdmin,
+  tmorroWebsite,
+  bmsaxiom,
+  puexpAdmin,
+  puexpWebsite,
+  verticalCharts,
+  vishalchaudharylawOffice,
 };
