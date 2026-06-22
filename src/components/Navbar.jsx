@@ -49,7 +49,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-6 items-center'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -60,17 +60,41 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+
+          <li>
+            <a
+              href={resume}
+              download="Sumit_Resume.pdf"
+              className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-[#C41A46] text-white font-semibold shadow-lg shadow-[#c41a46]/30 hover:bg-[#a6153a] hover:shadow-[#c41a46]/50 transition-all duration-300 transform hover:-translate-y-0.5"
+            >
+              <svg
+                className="w-4 h-4 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                />
+              </svg>
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            className='w-[28px] h-[28px] object-contain mx-5'
             onClick={() => setToggle(!toggle)}
           />
 
-          <li className="mt-4">
+          <li className="">
             <a
               href={resume}
               download="Sumit_Resume.pdf"
